@@ -90,6 +90,32 @@
     top: 20px;
     background-color: rgb(128, 128, 166);
 }
+.inminiboxloc-02:hover{
+    left: 0px;
+    top: 20px;
+    background-color: #4d5fbb;
+}
+.inminiboxloc-03{
+    left: 0px;
+    top: 20px;
+    background-color: rgb(128, 128, 166);
+}
+.dropdown-contetinmini{
+    display: none;
+    position: absolute;
+    background-color: rgb(92, 92, 119);;
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+.inminiboxloc-03:hover .dropdown-contetinmini{
+    display: block;
+}
+.inminiboxloc-03:hover{
+    left: 0px;
+    top: 20px;
+    background-color: #b144c2;
+}
 .miniminibox-01{
     width: 390px;
     height: 20px;
