@@ -4,9 +4,9 @@
 .bg-01{
     width: 100%;
     height: 100%;
-    background-color: rgb(128, 128, 166);
     left: 0px;
     top: 0px;
+    background-color: rgb(128, 128, 166);
 }   
 .bg-02{
     width: 1244px;
@@ -23,29 +23,31 @@
     background: #4d5fbb;
 }
 .pic{
-    
     left: 1193px;
     top: 97px;
 }
-.abs{
-    position: absolute;
-}
 /*--------------------Fonts mm.-------------------------*/
-.comfa {
+.tex{
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
+}
+.comfa {
     font-weight: 300;
     font-style: normal;
   }
 .comfa-large {
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: solid;
   }
-
-
 /*--------------------Boxes mm.-------------------------*/
+.abs{
+    position: absolute;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .textbox{
     width: 400px;
     height: 395px;
@@ -56,49 +58,21 @@
     width: 395px;
     height: 45px;
 }
-.miniboxloc-01{
-    left: 0px;
-    top: 0px;
+.boxh{
+    height: 25px;
 }
-.miniboxloc-02{
-    left: 0px;
-    top: 60px;
-}
-.miniboxloc-03{
-    left: 0px;
-    top: 120px;
-}
-.miniboxloc-04{
-    left: 0px;
-    top: 180px;
-}
-.miniboxloc-05{
-    left: 0px;
-    top: 240px;
-}
-.miniboxloc-06{
-    left: 0px;
-    top: 300px;
-}
-.inminiboxloc-01{
-    left: 0px;
-    top: 0px;
+.boxcol-01{
     background-color: rgb(89, 89, 115);
 }
-.inminiboxloc-02{
-    left: 0px;
-    top: 20px;
+.boxcol-02{
     background-color: rgb(128, 128, 166);
 }
-.inminiboxloc-02:hover{
-    left: 0px;
-    top: 20px;
-    background-color: #4d5fbb;
-}
-.inminiboxloc-03{
-    left: 0px;
-    top: 20px;
+.boxcol-03{
     background-color: rgb(128, 128, 166);
+}
+.checkboxsize{
+    height: 30px;
+    width: 30px;
 }
 .dropdown-contetinmini{
     display: none;
@@ -106,23 +80,6 @@
     background-color: rgb(92, 92, 119);;
     padding: 12px 16px;
     z-index: 1;
-
-}
-.inminiboxloc-03:hover .dropdown-contetinmini{
-    display: block;
-}
-.inminiboxloc-03:hover{
-    left: 0px;
-    top: 20px;
-    background-color: #b144c2;
-}
-.miniminibox-01{
-    width: 390px;
-    height: 20px;
-}
-.miniminibox-02{
-    width: 383px;
-    height: 20px;
 }
 .extratextbox{
     width: 400px;
@@ -138,7 +95,17 @@
     left: 0px;
     top: 60px;
 }
-/*
+.submit{
+    width: 160px;
+    height: 25px;
+    top: 375px;
+    left: 100px;
+    border-radius: 12px;
+}
+.submit:hover{
+    background-color: #b144c2; 
+    transition-duration: 0.4s;
+}/*
 .location{
     border: #c37272;
     border-width: 3px;
