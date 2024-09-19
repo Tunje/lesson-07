@@ -16,45 +16,57 @@
             <h3></h3>
         </header>
         <main>
-            <div class="abs textbox flex location">
-                <div class="location miniboxsize flex">
-                    <div class="location-2 boxcol-01 boxh comfa tex">Enter your name:</div>
-                    <input type="text" id="name" class="location-2 boxcol-02 comfa tex" placeholder="Your name!" required autofocus>
-                    <div></div>
-                </div>  
-                <div class="location miniboxsize flex">
-                    <div class="location-2 boxcol-01 boxh comfa tex">Enter your email adress:</div>
-                    <input type="email" id="email" class="location-2 boxcol-02 comfa tex" placeholder="Your Email" required>
+            <form>
+                <div class="abs textbox flex location">
+                    <div class="location miniboxsize flex">
+                        <div class="location-2 boxcol-01 boxh">
+                            <label for="name" class=" comfa tex">Enter your name:</label>
+                        </div>
+                        <input type="text" id="name" class="location-2 boxcol-02 comfa tex" placeholder="Your name!" required autofocus>
+                        <div></div>
+                    </div>  
+                    <div class="location miniboxsize flex">
+                        <div class="location-2 boxcol-01 boxh">
+                            <label for="email" class="comfa tex">Enter your email adress:</label>
+                        </div>
+                        <input type="email" id="email" class="location-2 boxcol-02 comfa tex" placeholder="Your Email" required>
+                    </div>
+                    <div class="location miniboxsize flex">
+                        <div class="location-2 boxcol-01 boxh">
+                            <label for="date" class=" comfa tex">Enter your birthday:</label>
+                        </div>
+                        <input type="date" id="date" class="location-2 boxcol-02 comfa tex" placeholder="Your birthday!" required>
+                    </div>
+                    <div class="location miniboxsize flex">
+                        <div class="location-2 boxcol-01 boxh">
+                            <label for="servitude" class="comfa tex">Tell us your location:</label>
+                        </div>
+                        <select id="servitude" class="location-2 boxcol-02 comfa tex" placeholder="Your home!">
+                            <option>Europe</option>
+                            <option>Afrika</option>
+                            <option>America</option>
+                            <option>Asia</option>
+                            <option>North America</option>
+                            <option>Australia</option>
+                        </select>
+                    </div>
+                    <div class="location miniboxsize flex">
+                        <div class="location-2 boxcol-01 boxh">
+                            <label for="confirm" class="comfa tex">Have you recived an alliance password?</label>
+                        </div>
+                        <input type="password" id="confirm" class="location-2 boxcol-02 comfa tex" placeholder="password" requierd minlength="12">
+                    </div>
+                    <div class="location miniboxsize flex">
+                        <lable for="checkbox" class="location-2 boxcol-01 boxh comfa tex">I am ready!</lable>
+                        <input type="checkbox" name="checkbox" class="location-2 checkboxsize comfa tex" value="Ready!">
+                    </div>
                 </div>
-                <div class="location miniboxsize flex">
-                    <div class="location-2 boxcol-01 boxh comfa tex">Enter your birth year:</div>
-                    <input type="date" id="date" class="location-2 boxcol-02 comfa tex" placeholder="Your birthday!" required>
-                </div>
-                <div class="location miniboxsize flex">
-                    <div class="location-2 boxcol-01 boxh comfa tex">Tell us your location:</div>
-                    <select id="servitude" class="location-2 boxcol-02 comfa tex" placeholder="Yes please!">
-                        <option>Europe</option>
-                        <option>Afrika</option>
-                        <option>America</option>
-                        <option>Asia</option>
-                        <option>North America</option>
-                        <option>Australia</option>
-                    </select>
-                </div>
-                <div class="location miniboxsize flex">
-                    <div class="location-2 boxcol-01 boxh comfa tex">Have you been given an alliance password?</div>
-                    <input type="password" id="confirm" class="location-2 boxcol-02 comfa tex" placeholder="password" requierd minlength="12">
-                </div>
-                <div class="location miniboxsize flex">
-                    <lable for="checkbox" class="location-2 boxcol-01 boxh comfa tex">I am ready!</lable>
-                    <input type="checkbox" name="checkbox" class="location-2 checkboxsize comfa tex" value="Ready!">
-                </div>
-            </div>
-            <section class="abs location extratextbox">
-                <p class="abs Rubrik comfa-large tex">Join the Corpus Alliance – Your Path to Profit and Power!</p>
-                <p class="abs brodtext comfa tex">The Corpus Alliance is not just a faction; we are a thriving community of visionaries, traders, and technologists committed to shaping the future through profit and progress. With a rich history rooted in trade and technological advancement, we harness the power of innovation to propel our mission forward. As leaders in the field of commerce, we are always seeking new opportunities to expand our empire and secure our place as the dominant force in the system.</p>
-                <button type="submit" class="abs boxcol-02 comfa tex submit">Submit</button>
-            </section>
+                <section class="abs location extratextbox">
+                    <p class="abs Rubrik comfa-large tex">Join the Corpus Alliance – Your Path to Profit and Power!</p>
+                    <p class="abs brodtext comfa tex">The Corpus Alliance is not just a faction; we are a thriving community of visionaries, traders, and technologists committed to shaping the future through profit and progress. With a rich history rooted in trade and technological advancement, we harness the power of innovation to propel our mission forward. As leaders in the field of commerce, we are always seeking new opportunities to expand our empire and secure our place as the dominant force in the system.</p>
+                    <button type="submit" class="abs boxcol-02 comfa tex submit">Submit</button>
+                </section>
+            </form>
         </main>
     </body>
 </html>
